@@ -14,8 +14,8 @@ import com.google.gson.Gson;
  * 七牛云工具类
  */
 public class QiniuUtils {
-    public static String accessKey = "8fpKVtHlOERGpLFDPYbdGDz3t8xhvet6Hz6JT-1p";
-    public static String secretKey = "LJfu3oFwSXqqb0ECXnJRNDNzJiiyIpALzIOgDsHn";
+    public static String accessKey = "";
+    public static String secretKey = "";
     public static String bucket = "yias";
 
     /**
