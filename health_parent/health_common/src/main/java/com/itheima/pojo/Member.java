@@ -1,7 +1,9 @@
 package com.itheima.pojo;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * 会员
@@ -13,10 +15,10 @@ public class Member implements Serializable{
     private String sex;//性别
     private String idCard;//身份证号
     private String phoneNumber;//手机号
-    private Date regTime;//注册时间
+    private LocalDate regTime;//注册时间
     private String password;//登录密码
     private String email;//邮箱
-    private Date birthday;//出生日期
+    private LocalDate birthday;//出生日期
     private String remark;//备注
 
     public Integer getId() {
@@ -67,11 +69,11 @@ public class Member implements Serializable{
         this.phoneNumber = phoneNumber;
     }
 
-    public Date getRegTime() {
+    public LocalDate getRegTime() {
         return regTime;
     }
 
-    public void setRegTime(Date regtime) {
+    public void setRegTime(LocalDate regtime) {
         this.regTime = regtime;
     }
 
@@ -91,11 +93,11 @@ public class Member implements Serializable{
         this.email = email;
     }
 
-    public Date getBirthday() {
+    public LocalDate getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
     }
 
